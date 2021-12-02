@@ -8,3 +8,8 @@ eureka:
     hostname: localhost
     leaseRenewalIntervalInSeconds: 1
     leaseExpirationDurationInSeconds: 2
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
