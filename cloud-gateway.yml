@@ -6,8 +6,8 @@ spring:
           uri: lb://USER-SERVICE
           predicates:
             - Path=/users/**
-        - id: cloud-gateway
-          uri: lb://cloud-gateway
+        - id: DEPARTMENT-SERVICE
+          uri: lb://DEPARTMENT-SERVICE
           predicates:
             - Path=/departments/**
 
