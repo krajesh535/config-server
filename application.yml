@@ -13,3 +13,5 @@ management:
     web:
       exposure:
         include: refresh
+    gateway:
+      enabled: true
