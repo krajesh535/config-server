@@ -10,6 +10,8 @@ spring:
           uri: lb://DEPARTMENT-SERVICE
           predicates:
             - Path=/departments/**
-
+      discovery.locator:
+          enabled: true
+          lowerCaseServiceId: true
 server:
   port: 9191
